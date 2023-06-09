@@ -1,0 +1,57 @@
+/*se le asigna tamaño y tipo de letra a los titulos*/
+h3,
+h2 {
+    margin: 0 30%;
+    font-size: 35px;   
+    font-family: 'Ephesis', cursive;      
+   }
+/*se le asigna margen-bordes-tamaño a la imagen*/
+#imagen1 {
+  margin: 0 30%;
+  border-radius: 40px;
+  border-width: 5px;
+  border-color: black;
+  border-style: double;
+  width: 600px;
+}
+/*se le asigna color al fondo de la pagina*/
+body {  
+  background-color: gray;
+  color: white;
+  font-size: 25px;
+}
+/*se le asigna margen-bordes-tamaño a la imagen*/
+#candado {
+  margin: 0 30%;
+  border-radius: 50%;
+  border-width: 5px;
+  border-color: black;
+  border-style: double;
+  width: 600px;
+}
+/*solo modifica los elementos que tenga el atributo type="radio"*/
+[type="radio"] {
+  margin: 10px;
+}
+/*solo modifica los elementos que tenga el atributo type="checkbox"*/
+[type="checkbox"] {
+  margin: 10px;
+}
+/*le asigna colo a os vinculos de elnlaces*/
+[href] {
+  text-decoration: none;
+  color: chartreuse;
+  font-weight: bold
+}
+#ojo {
+  margin: 0 30%;
+  border-radius: 30%;
+  border-width: 5px;
+  border-color: white;
+  border-style: double;
+  width: 600px;
+}
+#contenido {
+  width: 1500px; 
+  margin: 0 auto;
+}
